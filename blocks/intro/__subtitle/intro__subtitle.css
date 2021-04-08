@@ -1,0 +1,12 @@
+.intro__subtitle {
+    margin: 32px 0 0 4px;
+    padding: 0;    
+    /*max-width: 268px;*/
+
+    /*Настройки отображения текста*/
+    font-size: 14px;
+    font-style: bold;
+    font-weight: 900;  
+    text-align: left; 
+    color: inherit;
+}

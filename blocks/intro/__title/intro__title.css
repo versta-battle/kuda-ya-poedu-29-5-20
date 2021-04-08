@@ -1,0 +1,13 @@
+.intro__title {
+    margin: 0 0 0 3px;
+    padding: 0;
+
+    color: #fecda7;
+    text-transform: uppercase;
+
+    /*Настройки отображения текста*/
+    font-size: 9px;
+    font-style: bold;
+    font-weight: 900;  
+    text-align: left;    
+}

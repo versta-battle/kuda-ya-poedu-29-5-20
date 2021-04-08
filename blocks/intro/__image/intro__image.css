@@ -1,0 +1,13 @@
+.intro__image {
+    margin: 0 72px 0 30px;
+    padding: 0;   
+     
+    max-width: 285px;  
+    max-height: 285px;    
+
+    /*сделать изображение адаптивным*/
+    width: 100%;
+    height: auto;
+
+    object-fit: cover; /*изображение с сохранением пропорций по центру картинки*/
+}
