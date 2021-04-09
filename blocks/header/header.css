@@ -1,6 +1,8 @@
 .header {
   margin: 0 55px 0 55px;  
-  padding: 0;    
+  padding: 0 0 106px 0;   
+  
+  background: #ffffff;
 
   font-family: 'Inter', Arial, sans-serif; /*Использовать шрифт Inter*/
   color: #050505; /*Цвет шрифта - черный*/
