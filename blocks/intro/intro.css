@@ -1,14 +1,10 @@
 .intro {
-    margin: 70px auto 0 auto;
-    padding: 0;
-    max-width: 914px;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-
-    font-family: 'Inter', Arial, sans-serif; /*Использовать шрифт Inter*/
+    padding-right: 80px;
+    
+    display: grid;
+    grid-template-columns: auto 400px;
+    grid-template-rows: 400px;
+    
     color: #050505; /*Цвет шрифта - черный*/
 
     /*Сглаживание шрифтов*/

@@ -1,13 +1,17 @@
 .intro__title {
-    margin: 0 0 0 3px;
-    padding: 0;
 
-    color: #fecda7;
-    text-transform: uppercase;
+
+    margin: 32px 0 0 0;
+    padding: 0;    
+    max-width: 618px;
 
     /*Настройки отображения текста*/
-    font-size: 9px;
-    font-style: bold;
-    font-weight: 900;  
-    text-align: left;    
+    
+
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 1.24;
+
+    text-align: left; 
+    color: inherit;    
 }

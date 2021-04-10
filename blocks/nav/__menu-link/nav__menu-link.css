@@ -6,9 +6,8 @@
     color: inherit; /*цвет шрифта взять у родителя (указан белый цвет текста для блока header)*/
 
     /*Настройки отображения текста*/
-    font-size: 9px;
-    font-style: bold;
-    font-weight: 900;  
+    font-size: 14px;
+    font-weight: 700;  
     text-align: left;    
 
     opacity: 1;
