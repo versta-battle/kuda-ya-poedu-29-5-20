@@ -36,6 +36,7 @@
 * [Образец макета в Figma для основных разрешений](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-%2B-mobile?node-id=28503%3A0)
 * [Закрытый командный проект в фигма](https://www.figma.com/file/1Yk6L2GjsBCv0ws0zfWk91/kuda-ya-poedu-29-5-20?node-id=0%3A1)
 * [Канбан доска проекта](https://github.com/orgs/versta-battle/projects/1)
+* [**Финальный сайт**](https://versta-battle.github.io/kuda-ya-poedu-29-5-20/)
 
 #### Полезные ссылки:
 * [БЭМап: Интенсив для новичков](https://www.youtube.com/watch?v=sX8xQrwk6ko)
@@ -50,4 +51,3 @@
 История работы:
 
 ![Work tree](https://github.com/versta-battle/kuda-ya-poedu-29-5-20/blob/main/docs/history.PNG)
-
