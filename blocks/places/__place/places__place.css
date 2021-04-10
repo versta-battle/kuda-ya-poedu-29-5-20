@@ -1,0 +1,10 @@
+.places__place {
+  background-color: #f2f2f2;
+  font-family: inherit;
+  color: #050505; /*Цвет шрифта - черный*/
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-auto-flow: dense; /*использовать пространство контейнера максимально компактно*/
+  gap: 0; /*зазор между строками в сетке*/
+}

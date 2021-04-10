@@ -1,6 +1,7 @@
 .places__description {
   margin: 0;
-  padding: 0;
+  padding: 70px 85px 70px 85px;
+  max-width: 450px;
 
   background: #f2f2f2;
 
