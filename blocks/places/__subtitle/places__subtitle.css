@@ -1,0 +1,16 @@
+.places__subtitle {
+  margin: 0px 0 25px 57px;
+  padding: 0;
+
+  /*Настройки отображения текста*/
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: left;
+  color: inherit;
+}
+
+.places__subtitle:last-of-type {
+  margin-bottom: 0;
+}
+

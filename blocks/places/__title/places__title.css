@@ -1,0 +1,11 @@
+.places__title {
+  margin: 55px 0 159px 59px;
+  padding: 0;
+
+  /*Настройки отображения текста*/
+  font-size: 14px;
+  font-style: bold;
+  font-weight: 900;
+  text-align: left;
+  color: inherit;
+}
