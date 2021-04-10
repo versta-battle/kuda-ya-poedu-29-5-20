@@ -1,11 +1,8 @@
 @import url(../vendor/normalize.css);
-
-@import url(../blocks/root/root.css);
-
 @import url(../vendor/fonts/font.css);
 
-
 @import url(../blocks/page/page.css);
+@import url(../blocks/page/__narrow-content/page__narrow-content.css);
 
 
 @import url(../blocks/header/header.css);

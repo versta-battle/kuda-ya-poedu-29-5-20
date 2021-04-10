@@ -1,6 +1,31 @@
 /*Блок page - основной блок, который содержит все блоки html страницы*/
 .page {
-  margin: 0; /*выровнять блок по центру экрана для экранов с размером больше 1280px, обнулить внеший верхний и нижний отступы*/
-  padding: 0; /*обнулить внутренние отступы*/  
-  background: #ffffff;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+  background-color: #ffffff;
+}
+
+@media screen and (max-width: 1280px) {
+  .page {
+    max-width: 1280px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .page {
+    max-width: 1080px;
+  }
+}
+@media screen and (max-width: 780px) {
+  .page {
+    max-width: 780px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .page {
+    max-width: 360px;
+  }
 }
