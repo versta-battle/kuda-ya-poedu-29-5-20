@@ -1,10 +1,8 @@
 .footer {
   margin: 0;
-  /*выровнять блок по центру экрана для экранов с размером больше 1280px, обнулить внеший верхний и нижний отступы*/
   padding: 0;
-  /*обнулить внутренние отступы*/
   width: 100%;
-  min-height: 495px;
+  min-height: 695px;
   background-color: #fecda7;
   color: #000000;
   display: flex;
