@@ -1,16 +1,11 @@
 .intro {
     padding-right: 90px;
     display: grid;
-    grid-template-columns: auto calc(100vw / 3.6);
-    grid-template-rows: calc(100vw / 3.6);
+    grid-template-columns: auto min(400px, calc(100vw / 3.6));
+    grid-template-rows: min(400px, calc(100vw / 3.6));
     color: #050505; /*Цвет шрифта - черный*/
 }
 
-@media screen and (max-width: 1280px) {
-    .intro {
-
-    }
-}
 
 @media screen and (max-width: 1100px) {
     .intro {
@@ -21,14 +16,14 @@
 
 @media screen and (max-width: 786px) {
     .intro {
-        padding-right: 20px;
+        padding-right: 0;
     }
   }
 
 @media screen and (max-width: 555px) {
     .intro {
         grid-template-columns: 100%;
-        grid-template-rows: calc(100vw-20px) calc(100vw-20px);
+        grid-template-rows: calc(100vw-30px) calc(100vw-30px);
         padding-right: 0;
     }
 }

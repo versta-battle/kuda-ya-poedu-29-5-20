@@ -6,3 +6,10 @@
   object-fit: cover;
   aspect-ratio: 6/5;
 }
+
+
+@media screen and (max-width: 1060px) {
+  .places__image {
+    grid-row: 1;
+  }
+}

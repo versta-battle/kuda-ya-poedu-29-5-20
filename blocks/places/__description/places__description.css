@@ -10,3 +10,11 @@
   justify-content:flex-start;
   align-items:flex-start;
 }
+
+@media screen and (max-width: 1060px) {
+  .places__description {
+    padding: 30px 25px 30px 25px;
+    max-width: 80%;
+    justify-self: center;
+  }
+}

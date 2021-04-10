@@ -9,3 +9,15 @@
   text-align: left;
   color: inherit;
 }
+
+@media screen and (max-width: 1210px) {
+  .places__title {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .places__title {
+    padding: 0 25px 0 25px;
+  }
+}

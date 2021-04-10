@@ -8,3 +8,10 @@
   grid-auto-flow: dense; /*использовать пространство контейнера максимально компактно*/
   gap: 0; /*зазор между строками в сетке*/
 }
+
+@media screen and (max-width: 1060px) {
+  .places__place {
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto;
+  }
+}
