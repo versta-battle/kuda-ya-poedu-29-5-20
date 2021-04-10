@@ -1,0 +1,22 @@
+.places {
+    margin: 0;
+    padding: 0;
+    max-width: 1024;
+
+    background: #f2f2f2;
+
+    font-family: 'Inter', Arial, sans-serif; /*Использовать шрифт Inter*/
+    color: #050505; /*Цвет шрифта - черный*/
+
+    /*Сглаживание шрифтов*/
+    -webkit-font-smoothing: antialiased; /*сглаживание шрифтов в Safari и во всех браузерах на платформе Chromium*/
+    -moz-osx-font-smoothing: grayscale; /*сглаживание шрифтов в Mozilla Firefox*/
+
+    display: grid;
+    justify-content: start;
+    align-content: start;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-auto-flow: dense; /*использовать пространство контейнера максимально компактно*/
+    gap: 0; /*зазор между строками в сетке*/
+}
