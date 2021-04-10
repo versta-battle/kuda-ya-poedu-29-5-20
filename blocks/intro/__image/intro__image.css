@@ -4,3 +4,9 @@
     object-fit: cover;
 }
 
+@media screen and (max-width: 555px) {
+    .intro__image {
+        width: calc(100vw - 20px);
+        height: calc(100vw - 20px);
+    }
+  }

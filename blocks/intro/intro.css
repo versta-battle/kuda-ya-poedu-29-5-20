@@ -25,10 +25,10 @@
     }
   }
 
-  @media screen and (max-width: 555px) {
+@media screen and (max-width: 555px) {
     .intro {
         grid-template-columns: 100%;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: calc(100vw-20px) calc(100vw-20px);
         padding-right: 0;
     }
-  }
+}
