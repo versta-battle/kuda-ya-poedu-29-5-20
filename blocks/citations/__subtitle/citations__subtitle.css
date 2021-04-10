@@ -1,7 +1,10 @@
 .citations__subtitle {
   margin: 0;
+  margin-bottom: 35px;
   color: #fecda7;
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 15px;
+  font-weight: 500;
   line-height: 1.0;
+  text-transform: uppercase;
+  letter-spacing: -1px;
 }

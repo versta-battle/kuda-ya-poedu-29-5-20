@@ -1,7 +1,9 @@
 .citations__title {
+  max-width: 500px;
   margin: 0;
+  margin-bottom: 135px;
   color: #000000;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.0;
+  font-size: 39px;
+  font-weight: 500;
+  line-height: 1.24;
 }
