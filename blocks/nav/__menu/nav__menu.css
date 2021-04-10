@@ -8,3 +8,13 @@
     justify-content: flex-start;
     align-items: flex-end;
 }
+
+@media screen and (max-width: 555px) {
+    .nav__menu {
+        margin: 0 auto 40px auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+  }
