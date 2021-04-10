@@ -1,9 +1,5 @@
 .nav {
-    margin: 41px auto 0 auto;    
     padding: 0;
-    max-width: 914px;
-
-    font-family: 'Inter', Arial, sans-serif; /*Использовать шрифт Inter*/
     color: #050505; /*Цвет шрифта - черный*/
 
     /*Сглаживание шрифтов*/
