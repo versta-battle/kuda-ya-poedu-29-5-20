@@ -17,3 +17,9 @@
 .nav__menu-link:hover {
     opacity: 0.5;
 }
+
+@media screen and (max-width: 555px) {
+    .nav__menu-link {
+        
+    }
+  }

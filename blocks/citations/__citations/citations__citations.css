@@ -3,3 +3,22 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 70px;
 }
+
+@media screen and (max-width: 780px) {
+  .citations__citations {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 40px;
+  }
+}
+
+@media screen and (max-width: 655px) {
+  .citations__citations {
+    max-width: calc(100vw - 40px);
+    margin-left: 20px;
+    margin-right: 20px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    gap: 30px;
+  }
+}

@@ -1,10 +1,15 @@
 .places__image {
   margin: 0;
   padding: 0;
-
-  /*сделать изображение адаптивным*/
   width: 100%;
   height: auto;
+  object-fit: cover;
+  aspect-ratio: 6/5;
+}
 
-  object-fit: contain; /*выровнять изображение в границах блока с сохранением пропорций изображения*/
+
+@media screen and (max-width: 1060px) {
+  .places__image {
+    grid-row: 1;
+  }
 }

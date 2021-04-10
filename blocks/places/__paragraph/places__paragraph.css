@@ -1,0 +1,35 @@
+.places__paragraph {
+  margin: 0;
+  margin-top: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: left;
+  color: inherit;
+}
+
+.places__paragraph:last-of-type {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1210px) {
+  .places__paragraph {
+    margin-top: 14px;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .places__paragraph {
+    font-size: 20px;
+  }
+  .places__paragraph:last-of-type {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .places__paragraph {
+    font-size: 16px;
+    padding: 30px 25px 30px 25px;
+  }
+}

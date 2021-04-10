@@ -1,17 +1,32 @@
 .intro__title {
-
-
     margin: 32px 0 0 0;
     padding: 0;    
     max-width: 618px;
-
-    /*Настройки отображения текста*/
-    
-
     font-size: 39px;
     font-weight: 700;
     line-height: 1.24;
-
     text-align: left; 
     color: inherit;    
 }
+
+@media screen and (max-width: 1280px) {
+    .intro__title {
+      max-width: 518px;
+      font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 786px) {
+    .intro__title {
+        max-width: 418px;
+        font-size: 24px;
+    }
+  }
+
+  @media screen and (max-width: 555px) {
+    .intro__title {
+        max-width: calc(100vw - 30px);
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+  }

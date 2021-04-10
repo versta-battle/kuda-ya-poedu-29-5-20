@@ -1,13 +1,16 @@
 .nav {
     padding: 0;
     color: #050505; /*Цвет шрифта - черный*/
-
-    /*Сглаживание шрифтов*/
-    -webkit-font-smoothing: antialiased; /*сглаживание шрифтов в Safari и во всех браузерах на платформе Chromium*/
-    -moz-osx-font-smoothing: grayscale; /*сглаживание шрифтов в Mozilla Firefox*/
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;    
 }
+
+@media screen and (max-width: 555px) {
+    .nav {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+  }
